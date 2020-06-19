@@ -160,6 +160,7 @@ body{
 }
 .slider {
     transition: 0.3s;
+    padding: 10px;
 }
 .item {
     
