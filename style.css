@@ -174,7 +174,7 @@ body{
     font-size: 36px;
     font-weight: 500;
     transition: 0.4s;
-    transition: 1s;
+    
 }
 .text h1{
     color: #ffffff;
@@ -264,46 +264,7 @@ body{
 /* Клонированный слайд */
 .slick-slide.slick-cloned{}
 /* Стрелка */
-.slick-arrow{
-    position: relative;
-}
-/* Стрелка влево */
-.slick-arrow.slick-next{
-    font-size: 0;
-    width: 65px;
-    height: 70px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    border-top: 5px solid #d3c1ad;;
-    border-right: 5px solid #d3c1ad;;
-    transform: rotate(45deg);
-    right:0;
-    
-    bottom: 0;
-    margin-right: 150px;
-}
-/* Стрелка вправо */
-.slick-arrow.slick-prev{
-    font-size: 0;
-    width: 65px;
-    height: 70px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    border-top: 5px solid #d3c1ad;;
-    border-right: 5px solid #d3c1ad;;
-    transform: rotate(-135deg);
-    margin-left: 150px;
-    z-index: 10;
-    left:0;
-    bottom:0;
-    
-}
-/* Стрелка не активная */
-.slick-arrow.slick-disabled{
-    
-}
+
 /* Точки (булиты) */
 .slick-dots{
     display: flex;
