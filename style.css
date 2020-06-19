@@ -152,7 +152,7 @@ body{
     }
     .header {
         padding-left: 85px;
-        position: fixed;
+       
     }
    
 }
@@ -258,6 +258,7 @@ body{
 .slick-slide.slick-cloned{}
 /* Стрелка */
 .slick-arrow{
+    position: relative;
 }
 /* Стрелка влево */
 .slick-arrow.slick-next{
