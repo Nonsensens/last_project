@@ -7,4 +7,5 @@ $(document).ready(function(){
     $('.burger').on('click', function(){
         $('.burger, .navi_mobile').toggleClass('active')
     })
+    $('.')
 })

@@ -65,7 +65,7 @@ body{
     width: 10px;
     height: 630px;
     width: 300px;
-    border: 2px solid blue;
+    border: 2px solid #736357;
     text-align: center;
     margin-top: 20px;
 }
@@ -88,7 +88,7 @@ body{
     font-size: 30px;
 }
 .spisok_mobile li:hover{
-    color:blue;
+    color:#736357;
     margin-top: 40px;
 }
 @media (max-width:1340px){
