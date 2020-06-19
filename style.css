@@ -152,7 +152,7 @@ body{
     }
     .header {
         padding-left: 85px;
-        
+        position: fixed;
     }
    
 }
