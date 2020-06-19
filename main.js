@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.slider').slick({
         dots: true,
-        arrows:true,
+        arrows:false,
         autoplay:true
     });
     $('.burger').on('click', function(){

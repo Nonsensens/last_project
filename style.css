@@ -272,7 +272,7 @@ body{
     border-right: 5px solid #d3c1ad;;
     transform: rotate(45deg);
     right:0;
-    position: absolute;
+    
     bottom: 0;
     margin-right: 150px;
 }
@@ -291,7 +291,7 @@ body{
     z-index: 10;
     left:0;
     bottom:0;
-    position: absolute;
+    
 }
 /* Стрелка не активная */
 .slick-arrow.slick-disabled{
