@@ -14,6 +14,7 @@ body{
     
 }
 .header {
+    transition: 1s;
     padding-left: 385px;
 }
 .wrapper_header{
@@ -157,8 +158,10 @@ body{
    
 }
 .slider {
+    transition: 0.3s;
 }
 .item {
+    
     margin-top: 275px;
     padding-bottom: 382px;
 }
