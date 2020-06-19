@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0
+}
+body{
+    
+}
+.body{
+    background-image: url('img/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.header {
+    padding-left: 385px;
+}
+.wrapper_header{
+    padding-top: 46px;
+    display: flex;
+    max-width: 1160px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.logo h1{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+}
+.navi {
+    
+}
+.spisok {
+    display: flex;
+}
+.spisok li{
+    cursor: pointer;
+    list-style: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+.spisok li:not(:last-child){
+    margin-right: 29px;
+}
+.spisok li:hover{
+    color: #c7b299;
+}
+.navi_mobile {
+    display: none;
+    position: absolute;
+    width: 10px;
+    height: 630px;
+    width: 300px;
+    border: 2px solid blue;
+    text-align: center;
+}
+.spisok_mobile {
+     
+    height: 50px;
+}
+.spisok_mobile li{
+    list-style: none;
+    cursor: pointer;
+    list-style: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+.spisok_mobile li{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.spisok_mobile li:hover{
+    color:blue;
+    margin-top: 40px;
+}
+@media (max-width:1340px){
+    .navi{
+        display: none;
+    }
+    .burger{
+        content: '';
+        height: 20px;
+        width: 29px;
+        left: 0;
+        top:0;
+        position: relative;
+        margin-right: 55px;
+        transition: 0.3s;
+    }
+    .sp1{
+        content:'';
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        left: 0;
+        top:0;
+        position: absolute;
+        transition: 0.5s;
+    }
+    .sp2{
+        content:'';
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        left: 0;
+        top:9px;
+        position: absolute;
+        transition: 0.5s;
+    }
+    .sp3{
+        content:'';
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        left: 0;
+        bottom:0;
+        position: absolute;
+        transition: 0.5s;
+    }
+    .burger.active .sp1{
+        transform: rotate(45deg);
+        top:9px
+    }
+    .burger.active .sp2{
+        display: none;
+    }
+    .burger.active .sp3{
+        transform: rotate(-45deg);
+        top:9px
+    }
+    .navi_mobile.active{
+        display: block;
+        width: 100%;
+        background-color: #000;
+        z-index: 5;
+    }
+    .header {
+        padding-left: 85px;
+        
+    }
+   
+}
+.slider {
+}
+.item {
+    margin-top: 275px;
+    padding-bottom: 382px;
+}
+.text {
+    text-align: center;
+}
+.text h2{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+}
+.text h1{
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text p{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 562px;
+    margin: 0 auto;
+    margin-bottom: 52px;
+}
+.button {
+    cursor: pointer;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    margin: 0 auto;
+}
+
+.button h3{
+    
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 15.6px;
+}
+.button h3:hover{
+    color:#000
+}
+.slick-slider{
+    border: none;
+    outline: none;
+    
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{
+    border: none;
+    outline: none;
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{
+    border: none;
+    outline: none;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+    border: none;
+    outline: none;
+    
+
+}
+/* Слайд */
+.slick-slide{
+    border: none;
+    outline: none;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+}
+/* Стрелка влево */
+.slick-arrow.slick-next{
+    font-size: 0;
+    width: 65px;
+    height: 70px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-top: 5px solid #d3c1ad;;
+    border-right: 5px solid #d3c1ad;;
+    transform: rotate(45deg);
+    right:0;
+    position: absolute;
+    bottom: 0;
+    margin-right: 150px;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-prev{
+    font-size: 0;
+    width: 65px;
+    height: 70px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-top: 5px solid #d3c1ad;;
+    border-right: 5px solid #d3c1ad;;
+    transform: rotate(-135deg);
+    margin-left: 150px;
+    z-index: 10;
+    left:0;
+    bottom:0;
+    position: absolute;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{
+    
+}
+/* Точки (булиты) */
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.slick-dots li{
+    list-style: none;
+    margin-bottom: 90px;
+}
+/* Активная точка */
+.slick-dots li.slick-active button{
+    
+    font-size: 0;
+    width: 15px;
+    outline: none;
+    height: 15px;
+    border: 2px solid #d3c1ad;
+    background-color: transparent;
+    border-radius: 50%;
+    
+}
+/* Элемент точки */
+.slick-dots li button{
+    outline: none;
+    border-radius: 50%;
+    font-size: 0;
+    width: 11px;
+    height: 11px;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    opacity: 0.5;
+    border: none;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+@media (max-width:983px){
+    .header {
+        padding-left: 85px;
+        
+    }
+}
+@media (max-width:503px){
+    .header {
+        padding-left: 35px;
+        
+    }
+}
