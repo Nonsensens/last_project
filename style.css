@@ -637,7 +637,7 @@ body {
     justify-content: center;
   }
   .images_tabs{
-    
+    margin-left: 100px;
   }
   .img_content{
     margin-right: 0px;
@@ -650,6 +650,12 @@ body {
   }
   .img_taba .ph1_img{
     width: 100%;
+  }
+}
+@media (max-width:625px){
+ 
+  .images_tabs{
+    margin: 0 20px;
   }
 }
 @media (max-width:500px){
