@@ -395,6 +395,8 @@ body {
   background-color: #fbfaf8;
   
 }
+
+}
 .text_realization {
   text-align: center;
   padding-top: 71px;
@@ -428,7 +430,7 @@ body {
   background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 }
 .wrapper_bottom {
-  
+  padding:0 10px;
   max-width: 1180px;
   margin: 0 auto;
   display: flex;
