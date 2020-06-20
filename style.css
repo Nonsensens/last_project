@@ -738,7 +738,7 @@ body {
   outline: none;
   margin: 0 auto;
   display: flex;
-  
+  cursor: pointer;
 }
 .button_tab h1{
   margin: auto;
