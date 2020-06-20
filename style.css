@@ -637,7 +637,7 @@ body {
     justify-content: center;
   }
   .images_tabs{
-    margin-left: 100px;
+    margin-left: 200px;
   }
   .img_content{
     margin-right: 0px;
@@ -652,10 +652,22 @@ body {
     width: 100%;
   }
 }
-@media (max-width:625px){
+@media (max-width:779px){
  
   .images_tabs{
-    margin: 0 20px;
+    margin-left:100px;
+  }
+}
+@media (max-width:550px){
+ 
+  .images_tabs{
+    margin-left:30px;
+  }
+}
+@media (max-width:450px){
+ 
+  .images_tabs{
+    margin:10px;
   }
 }
 @media (max-width:500px){
