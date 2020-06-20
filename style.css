@@ -560,10 +560,7 @@ body {
 .tab.active h3{
   color:#fff
 }
-.images_tabs {
-  display: none;
-  
-}
+
 .img_content{
   position: relative;
   cursor: pointer;
@@ -629,7 +626,7 @@ body {
   display: block ;
   position: absolute;
 }
-.images_tabs.active{
+.images_tabs1.active{
   display: block;
 }
 @media (max-width:1270px){
@@ -686,7 +683,7 @@ body {
     flex-direction: column;
     width: auto;
   }
-  .images_tabs{
+  .images_tabs1{
     margin:0 10px;
   }
 }
@@ -694,4 +691,40 @@ body {
   .tab h3{
     line-height: 16px;
   }
+}
+
+.images_tabs1 {
+  display: none;
+  
+}
+.images_tabs2 {
+  display: none;
+  
+}
+.images_tabs3 {
+  display: none;
+  
+}
+.images_tabs4 {
+  display: none;
+  
+}
+.images_tabs5 {
+  display: none;
+  
+}
+.images_tabs1.active{
+  display: block;
+}
+.images_tabs2.active{
+  display: block;
+}
+.images_tabs3.active{
+  display: block;
+}
+.images_tabs4.active{
+  display: block;
+}
+.images_tabs5.active{
+  display: block;
 }
