@@ -402,7 +402,8 @@ body {
   padding-top: 71px;
 }
 .text_realization h1{
-  
+  text-align: center;
+  margin: auto;
   margin-bottom: 23px;
   color: #555555;
   font-family: "Raleway - Semi Bold";
@@ -430,7 +431,7 @@ body {
   background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 }
 .wrapper_bottom {
-  padding:0 10px;
+  
   max-width: 1180px;
   margin: 0 auto;
   display: flex;
@@ -445,7 +446,7 @@ body {
   font-family: Raleway;
   font-size: 28px;
   font-weight: 400;
-
+  
 }
 .bottom_text span{
   color: #c7b299;
