@@ -393,7 +393,7 @@ body {
 }
 .realization {
   background-color: #fbfaf8;
-  
+  padding:0 10px
 }
 
 }
@@ -432,7 +432,7 @@ body {
   background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
 }
 .wrapper_bottom {
-  
+  padding: 0 10px;
   max-width: 1180px;
   margin: 0 auto;
   display: flex;
