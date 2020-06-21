@@ -90,6 +90,26 @@ $(document).ready(function(){
     $('#tab5').on('click', function(){
         $('#i_t5, #tab5').toggleClass('active')
     });
+
+
+    var $div=$('.item_between'),//Блок, доскроллив до которого анимация должна стартовать.
+	inited=false;
+
+    $(window).scroll(function(){
+        if(inited) return;
+        
+        var $t=$(this),
+            s_top=$t.scrollTop();
+        
+        if(s_top+$t.height()-450<$div.offset().top)
+            return;
+        
+        $('.item_between').addClass('anim')
+        
+        inited=true
+    });
+
+    
     
     
     

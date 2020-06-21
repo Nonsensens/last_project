@@ -26,7 +26,6 @@ body {
   display: flex;
   align-items: center;
   position: relative;
-  position: relative;
   animation: mylogo 2s;
 }
 @keyframes mylogo{
@@ -360,6 +359,66 @@ body {
   margin-top: 60px;
   max-width: 266px;
 }
+#ib1.anim{
+  position: relative;
+  animation: myitem1 2s;
+  
+}
+@keyframes myitem1{
+  0% {
+    transform: translate(0, 430%);
+    opacity: 0;
+  }
+  30% {
+    transform: rotate(-360deg);
+  }
+}
+
+#ib2.anim{
+  position: relative;
+  animation: myitem2 3s;
+  animation-delay: 1s;
+}
+@keyframes myitem2{
+  0% {
+    transform: translate(0, -430%);
+    opacity: 0.5;
+  }
+  30% {
+    transform: rotate(360deg);
+  }
+}
+
+#ib3.anim{
+  position: relative;
+  animation: myitem3 3s;
+  animation-delay: 1.5s;
+}
+@keyframes myitem3{
+  0% {
+    transform: translate(0, 430%);
+    opacity: 0;
+  }
+  30% {
+    transform: rotate(-360deg);
+  }
+}
+
+#ib4.anim{
+  position: relative;
+  animation: myitem4 3s;
+  animation-delay: 2s;
+}
+@keyframes myitem4{
+  0% {
+    transform: translate(0, -430%);
+    opacity: 0.5;
+  }
+  30% {
+    transform: rotate(360deg);
+  }
+}
+
 .item_between:not(:last-child){
   margin-right: 33px;
 }
