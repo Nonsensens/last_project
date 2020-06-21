@@ -640,6 +640,17 @@ animation: myrealization 2s;
   padding-top: 151px;
   padding-bottom: 80px;
 }
+.tabs.anim{
+  animation: tab_anim 1s ease-in;
+}
+@keyframes tab_anim{
+  0%{
+    transform: translateY(100%);
+  }
+  50%{
+    transform: translateY(-10%);
+  }
+}
 .wrapper_tabs {
   margin: 0 auto;
   max-width: 1170px;

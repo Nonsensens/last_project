@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var $div=$('.realization'),//Блок, доскроллив до которого анимация должна стартовать.
+    var $div=$('.tabs'),//Блок, доскроллив до которого анимация должна стартовать.
 	inited=false;
 
     $(window).scroll(function(){
@@ -8,10 +8,10 @@ $(document).ready(function(){
         var $t=$(this),
             s_top=$t.scrollTop();
         
-        if(s_top+$t.height()-970<$div.offset().top)
+        if(s_top+$t.height()-700<$div.offset().top)
             return;
         
-        $('.text_realization, .img_realization').addClass('anim')
+        $('.tabs').addClass('anim')
         
         inited=true
     });
