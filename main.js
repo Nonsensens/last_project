@@ -108,9 +108,6 @@ $(document).ready(function(){
         
         inited=true
     });
-
-    
-    
     
     
     setTimeout(function(){

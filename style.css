@@ -46,6 +46,12 @@ body {
   letter-spacing: -1.36px;
 }
 .navi {
+  animation: navia 2s;
+}
+@keyframes navia{
+  from{
+    transform: translateX(600%);
+  }
 }
 .spisok {
   display: flex;
@@ -361,12 +367,12 @@ body {
 }
 #ib1.anim{
   position: relative;
-  animation: myitem1 2s;
+  animation: myitem1 1.5s;
   
 }
 @keyframes myitem1{
   0% {
-    transform: translate(0, 430%);
+    transform: translate(0, 1630%);
     opacity: 0;
   }
   30% {
@@ -376,12 +382,12 @@ body {
 
 #ib2.anim{
   position: relative;
-  animation: myitem2 3s;
-  animation-delay: 1s;
+  animation: myitem2 2s;
+  animation-delay: 1.5s;
 }
 @keyframes myitem2{
   0% {
-    transform: translate(0, -430%);
+    transform: translate(0, -1630%);
     opacity: 0.5;
   }
   30% {
@@ -391,12 +397,12 @@ body {
 
 #ib3.anim{
   position: relative;
-  animation: myitem3 3s;
-  animation-delay: 1.5s;
+  animation: myitem3 2s;
+  animation-delay: 1s;
 }
 @keyframes myitem3{
   0% {
-    transform: translate(0, 430%);
+    transform: translate(0, 1630%);
     opacity: 0;
   }
   30% {
@@ -406,12 +412,12 @@ body {
 
 #ib4.anim{
   position: relative;
-  animation: myitem4 3s;
+  animation: myitem4 2s;
   animation-delay: 2s;
 }
 @keyframes myitem4{
   0% {
-    transform: translate(0, -430%);
+    transform: translate(0, -1430%);
     opacity: 0.5;
   }
   30% {
@@ -498,6 +504,32 @@ body {
   text-align: center;
   padding-top: 71px;
 }
+.text_realization.anim{
+animation: myrealization 2s;
+
+}
+@keyframes myrealization{
+  from {
+    
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.img_realization.anim img{
+  animation: myrealization1 1s;
+  
+  }
+  @keyframes myrealization1{
+    from {  
+      transform: translateX(100%)
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
 .text_realization h1{
   padding-top: 60px;
   text-align: center;
@@ -535,6 +567,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  animation: bottom 2s;
+  animation-delay: 2s;
+}
+@keyframes bottom{
+  from{
+    opacity: 0;
+  }
 }
 .bottom_text {
   padding-top: 42px;
@@ -583,7 +622,7 @@ body {
 }
 @media (max-width:569px){
   .wrapper_bottom {
-  
+    
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
