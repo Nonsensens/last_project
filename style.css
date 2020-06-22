@@ -1196,3 +1196,252 @@ animation: myrealization 2s;
     margin:  0 auto;
   }
 }
+footer{
+  background-color: #111111;;
+}
+.wrapper_footer {
+  padding-top: 45px;
+  padding-bottom: 52px;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.text_footer {
+  display: flex;
+}
+.text_footer h1{
+  color: #555555;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 300;
+}
+.text_footer h1{
+  margin-right: 20px;
+}
+.text_footer2 {
+  display: flex;
+}
+.text_footer2 h2{
+  color: #555555;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 300;
+  margin-right: 20px;
+}
+.sp_wax{
+  cursor: pointer;
+  color: #959595;
+}
+.h_faq {
+  cursor: pointer;
+  color: #c7b299;
+}
+.h_faq:hover{
+  color:red
+}
+.text_footer2 span{
+  color: #959595;
+  cursor: pointer;
+}
+@media (max-width:700px){
+  .wrapper_footer{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .text_footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .text_footer2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.last{
+  background-color: #191919;
+}
+.wrapper_last {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.row_last_main {
+  display: flex;
+}
+.column1 {
+  max-width: 358px;
+  margin-right: 40px;
+}
+.logos {
+  padding-top: 80px;
+  padding-bottom: 29px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.logos_text {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: -1.36px;
+}
+.text_column1 {
+  color: #555555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  padding-bottom: 33px;
+}
+.read_last {
+  cursor: pointer;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  padding-bottom: 134px;
+}
+.arrow_read {
+  margin-left: 10px;
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-top:4px solid transparent;
+  border-left:8px solid #fff;
+  border-bottom:4px solid transparent;
+  
+}
+.column2{
+  max-width:  280px;
+  margin-right: 39px;
+}
+.logos2{
+  padding-top: 80px;
+  padding-bottom: 33px;
+}
+.text_column2 h2{
+  color: #363636;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.text_column2 h3{
+  color: #363636;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.text_column2 h4{
+  color: #363636;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.text_column2 p{
+  color: #555555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+}
+.text_column2{
+  cursor: pointer;
+}
+.text_bottom_column:hover h2{
+  color:#fff
+}
+.text_bottom_column1:hover h2{
+  color:#fff
+}
+.text_bottom_column2:hover h2{
+  color:#fff
+}
+.text_bottom_column:hover p{
+  color: #c7b299;
+}
+.text_bottom_column1:hover p{
+  color: #c7b299;
+}
+.text_bottom_column2:hover p{
+  color: #c7b299;
+}
+
+.linia_last{
+  margin-top: 21px;
+  margin-bottom: 20px;
+  height: 1px;
+  background-color: #252525;
+}
+.column3{
+  max-width: 275px;
+  margin-right: 36px;
+}
+.column3 span{
+  color: #00bff3;
+}
+.text_bottom_column span:hover{
+  color:red;
+}
+.text_bottom_column1 span:hover{
+  color:red;
+}
+.column3 h2{
+  padding-top: 11px;
+}
+.column4{
+  max-width: 275px;
+}
+.logo4{
+  padding-top: 80px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 26px;
+}
+.img_column4 {
+  display: flex;
+  
+}
+.img_column_row1 {
+  margin-right: 10px;
+  
+}
+.img_column_row1 img{
+  margin-bottom: 5px;
+}
+.img_column_row2 img{
+  margin-bottom: 5px;
+}
+.img_column_row2 { 
+  
+}
+@media (max-width:1204px){
+  .row_last_main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+  }
+  .column1{
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+  .column2{
+    
+    margin-right: 0px;
+  }
+  .column3{
+    
+    margin-right: 0px;
+  }
+  .column4{
+    margin-bottom: 10px;
+  }
+}
