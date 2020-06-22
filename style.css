@@ -645,6 +645,7 @@ animation: myrealization 2s;
   margin: 0 auto;
   max-width: 1170px;
   overflow: hidden;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .text_tabs {
   text-align: center;
@@ -1082,6 +1083,7 @@ animation: myrealization 2s;
 }
 .recent_posts {
   margin: 0 auto;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .wrapper_recent {
   max-width: 1170px;
@@ -1443,5 +1445,23 @@ footer{
   }
   .column4{
     margin-bottom: 10px;
+  }
+  .column1 *{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .column2 *{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .column3 *{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+
+  }
+  .column4 *{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+
+
+
   }
 }
